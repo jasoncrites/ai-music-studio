@@ -1,0 +1,724 @@
+{
+  "research_metadata": {
+    "date_conducted": "2026-01-05",
+    "research_focus": "Professional and top-tier musician needs from AI music production tools",
+    "markets_analyzed": ["professional_producers", "grammy_winners", "independent_artists", "edm_producers"],
+    "sources": "Web search across industry publications, Reddit communities, producer interviews, market research"
+  },
+
+  "professional_pain_points": {
+    "time_consuming_tasks": {
+      "priority": "critical",
+      "findings": [
+        {
+          "pain_point": "Manual mixing and mastering takes too long",
+          "quote": "Serban Ghenea has noted that AI-powered plugins help him achieve consistent results more quickly, especially when working on large projects with tight deadlines",
+          "solution_needs": ["AI-powered mixing automation", "Intelligent mastering", "Batch processing"],
+          "market_impact": "High - directly affects revenue potential"
+        },
+        {
+          "pain_point": "Production speed gap versus AI-assisted competitors",
+          "quote": "If you're taking weeks to polish a song while your AI-powered peer drops an EP, you'll start to notice a gap—not just in output, but in visibility, momentum, and opportunity",
+          "solution_needs": ["Workflow acceleration", "AI-assisted arrangement", "Quick iteration tools"],
+          "market_impact": "Critical - competitive survival issue"
+        },
+        {
+          "pain_point": "Repetitive technical tasks steal creative time",
+          "quote": "AI is about automating the repetitive tasks so you can focus on the magic",
+          "solution_needs": ["Smart automation", "Template generation", "Intelligent routing"],
+          "market_impact": "High - affects creative output quality"
+        }
+      ]
+    },
+
+    "technical_barriers": {
+      "priority": "high",
+      "findings": [
+        {
+          "barrier": "Years of training required for professional-quality production",
+          "quote": "What once required years of training, expensive equipment, and complex technical skills can now be achieved with a few clicks using AI",
+          "solution_needs": ["Intelligent assistance", "Contextual tutorials", "Smart defaults"],
+          "democratization_impact": "Massive - opens market to 10x more creators"
+        },
+        {
+          "barrier": "Remote collaboration latency and quality issues",
+          "quote": "For years, musicians have struggled with remote collaboration. Delays, synchronization problems, and inconsistent audio quality have made real-time jamming across distances nearly impossible",
+          "solution_needs": ["Low-latency streaming", "Cloud sync", "Real-time collaboration"],
+          "market_impact": "High - essential for distributed teams"
+        },
+        {
+          "barrier": "Platform-specific mastering requirements",
+          "quote": "Producers need different masters for Spotify (-14 LUFS), Apple Music (-16 LUFS), and YouTube",
+          "solution_needs": ["Multi-platform mastering presets", "Automated loudness normalization", "Platform-specific optimization"],
+          "market_impact": "Medium - quality of life improvement"
+        }
+      ]
+    },
+
+    "industry_sentiment": {
+      "ai_adoption_stats": {
+        "current_users": "48% of self-releasing artists have tried AI tools",
+        "regular_users": "6% use generative tools regularly",
+        "resistance": "Over 80% of producers are against AI-generated songs",
+        "declining_resistance": "Never use AI dropped from 29% (2023) to 18% (2025)",
+        "professional_usage": "Nearly half of tracks on music platforms are touched by AI"
+      },
+      "key_concerns": [
+        "Social stigma - professionals reluctant to admit AI use publicly",
+        "Copyright and ethical concerns about training data",
+        "Fear of AI replacing human creativity",
+        "Quality concerns with fully AI-generated content"
+      ],
+      "acceptance_factors": [
+        "AI as a tool/assistant rather than replacement",
+        "Focus on workflow enhancement not content generation",
+        "Grammy win for Beatles' AI-enhanced 'Now and Then' legitimized AI use",
+        "Timbaland and other top producers publicly using AI"
+      ]
+    }
+  },
+
+  "feature_requests_from_real_musicians": {
+    "top_tier_producer_insights": {
+      "finneas_and_billie_eilish": {
+        "production_philosophy": "Less is more - carve out space for vocals to have three-dimensionality",
+        "approach": "Focus on making voice sound like being in the room with you",
+        "ai_stance": "Skeptical of AI from creativity perspective",
+        "key_takeaway": "Tools should enhance natural sound, not replace artistic decision-making"
+      },
+      "rick_rubin": {
+        "approach": "Master delegator - give artists steering wheel, trust them to drive",
+        "philosophy": "Quickly realized couldn't write everything himself to work on a lot of stuff",
+        "key_takeaway": "AI should empower artists to maintain creative control while scaling output"
+      },
+      "grammy_winning_engineers": {
+        "serban_ghenea": "Uses AI plugins for consistent results on tight deadlines while relying on expertise",
+        "general_trend": "Widespread AI use among top professionals despite social stigma"
+      }
+    },
+
+    "most_requested_features": {
+      "stem_separation": {
+        "priority": "critical",
+        "use_cases": [
+          "Remixing and mashups - create bootlegs in minutes vs hours",
+          "Sample extraction - isolate specific instruments/loops",
+          "Live DJ performance - real-time stem manipulation",
+          "Video production - isolate dialogue, music, SFX separately",
+          "Cleaning up old recordings",
+          "Karaoke and practice tracks"
+        ],
+        "quality_requirements": "High-accuracy separation with minimal artifacts",
+        "leading_tools": ["LALAL.AI (74TB training data)", "Moises.ai", "RipX"],
+        "market_size": "Massive - used across DJ, production, video, film industries",
+        "pricing_willingness": "High - professionals pay $10-30/month for quality tools"
+      },
+
+      "ai_mixing_mastering": {
+        "priority": "critical",
+        "features_needed": [
+          "Genre-appropriate processing",
+          "Intelligent EQ and compression recommendations",
+          "Tonal balance analysis",
+          "Reference track matching",
+          "Multi-platform optimization (Spotify, Apple Music, YouTube)",
+          "True peak limiting with -1 dBTP ceiling"
+        ],
+        "quality_bar": "Must match professional engineer results",
+        "leading_tools": ["iZotope Ozone", "LANDR", "Gullfoss by Soundtheory"],
+        "pricing_models": ["Subscription $10-30/mo", "Per-track processing", "One-time plugin purchase"]
+      },
+
+      "mobile_production": {
+        "priority": "high",
+        "market_growth": "$98M (2025) to $191M (2032) - 10% CAGR",
+        "essential_features": [
+          "Full DAW functionality on mobile",
+          "Multi-track recording",
+          "MIDI editing",
+          "Plugin support (AUv3 for iOS)",
+          "Low-latency processing",
+          "Cloud sync with desktop",
+          "Offline capability",
+          "AI mastering integration"
+        ],
+        "platform_preference": "iOS dominates (Core Audio infrastructure, AUv3)",
+        "key_apps": ["FL Studio Mobile", "Cubasis", "Logic Pro for iPad", "GarageBand"],
+        "use_case": "Capture ideas on-the-go, work while traveling, complete mobile-only workflows",
+        "hardware_integration": ["Audio interfaces", "Mobile mics", "Quality earbuds", "Cloud storage"]
+      },
+
+      "real_time_collaboration": {
+        "priority": "high",
+        "essential_features": [
+          "Simultaneous multi-user editing (Google Docs for music)",
+          "Ultra-low latency streaming",
+          "Built-in video conferencing",
+          "Live chat and waveform commenting",
+          "Version control and mix comparison",
+          "Cross-DAW compatibility",
+          "File sharing with status tracking",
+          "Real-time MIDI jamming"
+        ],
+        "leading_platforms": {
+          "pibox": "All-in-one with chat, commenting, versioning",
+          "muse": "DAW plugins (VST3/AU/AAX) for any DAW collaboration",
+          "evercast": "Ultra-low latency, professional-grade streaming",
+          "landr": "Cloud platform with AI mastering and stem separation",
+          "splice": "Sample sharing and project collaboration"
+        },
+        "market_driver": "Global distributed teams now standard, not exception"
+      },
+
+      "intelligent_workflow_tools": {
+        "priority": "medium-high",
+        "features": [
+          "AI-powered drum loop generation",
+          "Bass line and harmonic progression creation",
+          "Automatic tempo detection and mapping",
+          "Genre-specific loop/sample suggestions",
+          "Intelligent sample browsing (Splice integration)",
+          "One-tap recording with auto-organization",
+          "Smart routing and bussing",
+          "AI assistant trained on DAW manuals (FL Studio's Gopher)"
+        ],
+        "adoption": "67% of independent creators use AI for part of workflow",
+        "resistance": "Must feel like assistance, not replacement"
+      }
+    },
+
+    "reddit_community_feedback": {
+      "r_wearethemusicmakers": {
+        "focus": "Independent artist workflows and affordable tools",
+        "key_requests": [
+          "Better UI/UX in AI tools - current tools have 'horrible unusable mess' interfaces",
+          "Fair credit systems - stop wasting credits on misclicks",
+          "Longer generation limits (current 5-minute limit too restrictive)",
+          "Better editing capabilities post-generation",
+          "Watermarking tools to protect against unauthorized AI sampling"
+        ]
+      },
+      "r_edmproduction": {
+        "focus": "Electronic music production workflows",
+        "key_trends": [
+          "AI DAWs becoming creative partners, not just toolsets",
+          "Demand for hands-free recording",
+          "Automatic label organization",
+          "Neural tempo detection",
+          "AI-assisted stem separation in DAW",
+          "Splice integration for sample discovery"
+        ],
+        "popular_tools": ["RipX DAW (first true AI DAW)", "FL Studio (Gopher AI)", "Logic Pro 11", "Studio One 7"]
+      },
+      "r_audioengineering": {
+        "focus": "Technical quality and professional standards",
+        "concerns": [
+          "Copyright issues with AI training data",
+          "Ethical concerns about artist attribution",
+          "Quality of AI-generated vs AI-assisted content",
+          "Importance of human-AI collaboration over full automation"
+        ]
+      }
+    }
+  },
+
+  "workflow_needs": {
+    "mobile_recording": {
+      "market_size": "Smartphone music production software: $98M (2025) → $191M (2032)",
+      "key_requirements": [
+        "Professional DAW features on mobile",
+        "Seamless desktop-mobile sync",
+        "Support for external audio interfaces",
+        "Quality mic integration",
+        "Cloud storage integration",
+        "Battery efficiency",
+        "Offline capability"
+      ],
+      "standalone_hardware": {
+        "beginner": "Novation Circuit Tracks ($300-500)",
+        "semi_pro": "Roland MC-707 ($800-1,200)",
+        "professional": "Korg Kronos ($2,500+), OP-1 Field (portable synth/sampler)"
+      },
+      "workflow_pattern": "Dual workflow - mobile for ideas/travel, studio for final production"
+    },
+
+    "collaboration_workflows": {
+      "real_time_features": [
+        "Simultaneous project editing",
+        "Live audio/MIDI streaming",
+        "Instant messaging in DAW",
+        "Waveform annotation",
+        "Version comparison",
+        "Cloud project storage"
+      ],
+      "async_features": [
+        "Project sharing with permissions",
+        "Comment threads on specific sections",
+        "Mix revision history",
+        "File status tracking",
+        "Royalty-free sample libraries",
+        "Stem export/import"
+      ],
+      "cross_platform_needs": "Work across Windows, Mac, iOS, Android, Linux"
+    },
+
+    "stem_separation_workflows": {
+      "professional_use_cases": {
+        "djing": "Live performance stem manipulation, custom mashups in minutes",
+        "remixing": "Extract elements for creative reimagination",
+        "sampling": "Isolate specific instruments/vocals for new productions",
+        "post_production": "Separate dialogue from music/SFX in video",
+        "restoration": "Clean up old recordings by separating elements",
+        "practice": "Create karaoke/minus-one tracks"
+      },
+      "quality_requirements": [
+        "Minimal audio artifacts",
+        "Support for 2-8+ stem separation",
+        "De-noise, de-reverb, de-echo filters",
+        "High-resolution output (24-bit/96kHz+)",
+        "Fast processing (minutes not hours)",
+        "Batch processing capability"
+      ],
+      "integration_needs": "Direct DAW integration, drag-and-drop workflow"
+    },
+
+    "mastering_for_streaming": {
+      "platform_requirements": {
+        "spotify": {
+          "target_lufs": "-14 LUFS (Normal mode), -11 LUFS (Loud mode)",
+          "true_peak": "-1 to -2 dBTP",
+          "normalization": "Applied on playback, doesn't alter file"
+        },
+        "apple_music": {
+          "target_lufs": "-16 LUFS",
+          "true_peak": "-1 dBTP",
+          "codec": "AAC encoding"
+        },
+        "youtube": {
+          "target_lufs": "-14 LUFS",
+          "true_peak": "-1 dBTP"
+        },
+        "tidal": {
+          "target_lufs": "-14 LUFS",
+          "focus": "High-definition audio quality"
+        }
+      },
+      "universal_master_approach": "Single master at -14 LUFS with -1 dBTP works across all platforms",
+      "professional_approach": "Many engineers master -11 to -9 LUFS for impact, let platforms normalize down",
+      "essential_tools": [
+        "True peak limiting (FabFilter Pro-L 2, Ozone Maximizer)",
+        "LUFS metering",
+        "Reference track comparison",
+        "Platform-specific preview modes"
+      ]
+    }
+  },
+
+  "pricing_and_monetization": {
+    "subscription_vs_one_time": {
+      "market_trend": "Shift toward subscription-based models with hybrid options emerging",
+      "musician_preferences": {
+        "favor_one_time": [
+          "Sporadic creators who don't release frequently",
+          "Budget-conscious independents",
+          "Those wanting full ownership without ongoing costs",
+          "Preference for 'buy once, use forever' (FL Studio model)"
+        ],
+        "favor_subscription": [
+          "Prolific creators releasing 2-3+ tracks monthly",
+          "Those needing regular updates and new features",
+          "Professionals requiring latest tools",
+          "Teams needing collaboration features"
+        ]
+      },
+      "successful_pricing_models": {
+        "daw_examples": {
+          "reaper": "One-time $60 - massive value vs Adobe CC $3,600/5yr",
+          "logic_pro": "One-time $199.99",
+          "ableton_live": "One-time $99-749",
+          "fl_studio": "One-time with lifetime free updates",
+          "pro_tools": "Hybrid - subscription or perpetual license",
+          "studio_one": "$19.99/mo or $199.99 perpetual"
+        },
+        "service_examples": {
+          "landr": "$9.99/mo - AI mastering + distribution + collaboration",
+          "splice": "Subscription for samples + collaboration",
+          "distrokid": "$20-36/year unlimited distribution",
+          "routenote_premium": "$10/single, $20/EP, $30/album - keep 100% royalties",
+          "routenote_free": "Free distribution, 15% commission"
+        }
+      },
+      "hybrid_model_success": "Pay once for core, subscribe for updates/support/cloud features",
+      "breaking_point": "Artists abandon tools when subscriptions become unaffordable or wasteful"
+    },
+
+    "premium_feature_justification": {
+      "worth_paying_for": [
+        {
+          "feature": "Professional-quality AI mastering",
+          "willingness": "High - saves $50-150 per track vs hiring engineer",
+          "price_range": "$10-30/month or $5-10 per track"
+        },
+        {
+          "feature": "High-accuracy stem separation",
+          "willingness": "High - essential tool for DJs and remix artists",
+          "price_range": "$10-30/month"
+        },
+        {
+          "feature": "Real-time collaboration",
+          "willingness": "Medium-high - valuable for distributed teams",
+          "price_range": "$10-50/month depending on team size"
+        },
+        {
+          "feature": "Unlimited distribution keeping 100% royalties",
+          "willingness": "Very high - directly impacts revenue",
+          "price_range": "$20-80/year or $10-30 per release"
+        },
+        {
+          "feature": "Advanced AI tools (voice cloning, generation)",
+          "willingness": "Medium - concerns about quality and ethics",
+          "price_range": "$10-50/month"
+        },
+        {
+          "feature": "YouTube Content ID and playlist pitching",
+          "willingness": "High - revenue protection and discovery",
+          "price_range": "Included in premium distribution tiers"
+        },
+        {
+          "feature": "Professional plugins and virtual instruments",
+          "willingness": "High for quality tools",
+          "price_range": "$50-500 one-time or $10-30/month subscription"
+        }
+      ],
+      "deal_breakers": [
+        "Subscription fatigue - too many recurring payments",
+        "Poor UI/UX wasting credits or time",
+        "Limited editing capabilities",
+        "Arbitrary restrictions (5-minute generation limits)",
+        "Missing essential features in base tier",
+        "Unclear pricing or hidden costs"
+      ]
+    },
+
+    "market_segmentation": {
+      "hobbyist_bedroom_producers": {
+        "budget": "$0-50/month total",
+        "preference": "Free tools + selective one-time purchases",
+        "value_drivers": "Ease of use, learning resources, community"
+      },
+      "independent_artists": {
+        "budget": "$50-200/month",
+        "preference": "Strategic mix of subscriptions and one-time",
+        "value_drivers": "Distribution, mastering, collaboration, 100% royalties"
+      },
+      "semi_professional": {
+        "budget": "$200-500/month",
+        "preference": "Professional subscriptions + premium plugins",
+        "value_drivers": "Time savings, quality, workflow efficiency, client results"
+      },
+      "professional_studios": {
+        "budget": "$500-2000+/month",
+        "preference": "Enterprise subscriptions + perpetual licenses",
+        "value_drivers": "Reliability, support, latest features, team collaboration"
+      }
+    }
+  },
+
+  "integration_requirements": {
+    "daw_plugin_integration": {
+      "essential_formats": {
+        "vst": {
+          "versions": ["VST2 (legacy)", "VST3 (recommended)"],
+          "platform": "Windows, macOS, Linux",
+          "dominance": "Industry standard, widest compatibility",
+          "bit_depth": "64-bit required (32-bit obsolete)"
+        },
+        "au": {
+          "platform": "macOS only",
+          "integration": "Built into OS for faster processing",
+          "best_for": "Logic Pro, GarageBand",
+          "requirement": "Apple Silicon (M1/M2/M3) native support critical"
+        },
+        "aax": {
+          "platform": "Pro Tools exclusive",
+          "market": "Professional studios",
+          "note": "Pro Tools only supports AAX"
+        }
+      },
+      "daw_compatibility_matrix": {
+        "pro_tools": "AAX only",
+        "ableton_studio_one": "VST + AU only",
+        "logic_pro": "AU only",
+        "fl_studio_cubase_reaper": "VST (primary) + AU",
+        "universal_support": "FL Studio, Cubase, Reaper, Ableton, Studio One"
+      },
+      "key_requirements": [
+        "Native Apple Silicon support for Mac",
+        "64-bit architecture",
+        "Low latency processing",
+        "Preset management system",
+        "DAW automation compatibility",
+        "Resizable UI",
+        "MIDI learn/mapping"
+      ]
+    },
+
+    "hardware_integration": {
+      "midi_controllers": {
+        "professional_priorities": [
+          "Deep DAW integration (automatic parameter mapping)",
+          "Polyphonic aftertouch (MPE support)",
+          "Customizable mappings and templates",
+          "Multiple screens for feedback",
+          "CV/Gate outputs for modular gear",
+          "Built-in sequencers",
+          "Standalone operation (no computer needed)"
+        ],
+        "top_controllers_2025": {
+          "best_overall": "Novation SL MkIII - DAW nerve center with CV/Gate",
+          "best_for_ableton": "Ableton Push 3 - built-in audio interface, standalone mode",
+          "best_for_pianists": "NI Komplete Kontrol S88 MkIII",
+          "best_for_sampling": "Akai MPC Key 61",
+          "most_expressive": "Expressive E Osmose - MPE, 3D key gestures",
+          "best_for_live": "OXI One Mk2 - expanded I/O, multitrack sequencer"
+        },
+        "midi_2_0_features": [
+          "Property Exchange for deeper integration",
+          "Higher resolution (32-bit vs 7-bit)",
+          "Bi-directional communication",
+          "Per-note control",
+          "Advanced MPE capabilities"
+        ]
+      },
+      "audio_interfaces": {
+        "essential_features": [
+          "Low-latency drivers (ASIO for Windows, Core Audio for Mac)",
+          "Multiple input channels",
+          "High-quality preamps (Audient, Focusrite Clarett)",
+          "Phantom power for condenser mics",
+          "Direct monitoring",
+          "ADAT expansion capability",
+          "USB-C connectivity",
+          "Mobile compatibility (iOS/Android)"
+        ],
+        "recommended_interfaces": {
+          "entry_level": "Audient iD4 - premium components, pro features, great value",
+          "mid_range": "Focusrite Scarlett series",
+          "premium": "Focusrite Clarett+ - crystal-clear preamps",
+          "integrated_controller": "Ableton Push 3 - 24-bit/96kHz with ADAT I/O",
+          "portable": "Mobile-compatible interfaces for iOS DAWs"
+        }
+      },
+      "growing_demand": "MIDI controllers with built-in audio interfaces (currently rare)",
+      "workflow_benefit": "Single device for MIDI input + audio recording/monitoring"
+    },
+
+    "cloud_and_mobile_integration": {
+      "essential_features": [
+        "Seamless project sync across devices",
+        "Cloud storage with version history",
+        "Mobile app parity with desktop features",
+        "Offline mode with background sync",
+        "Collaboration features built-in",
+        "Sample library cloud access",
+        "AI processing in cloud (offload mobile compute)",
+        "Cross-platform file compatibility"
+      ],
+      "successful_implementations": {
+        "landr": "Cloud mastering + distribution + collaboration in one",
+        "splice": "Cloud samples + project stems sharing",
+        "soundtrap": "Cloud-native DAW with collaboration",
+        "bandlab": "Free cloud DAW with social features",
+        "logic_pro": "iCloud project sync iOS ↔ macOS"
+      }
+    }
+  },
+
+  "competitive_landscape": {
+    "leading_ai_music_tools_2025": {
+      "stem_separation": {
+        "lalal_ai": "74TB training data, de-noise/de-reverb/de-echo filters, industry leader",
+        "moises_ai": "AI remixing, tempo detection, genre switching",
+        "ripx": "World's first true AI DAW, hands-free recording"
+      },
+      "mastering": {
+        "landr": "AI mastering + distribution + collaboration platform",
+        "izotope_ozone": "Professional AI-assisted mastering suite",
+        "master_channel": "Streaming platform optimization"
+      },
+      "generation": {
+        "suno": "Text-to-music, Suno Studio (generative audio workstation)",
+        "udio": "Text-to-music with professional arrangements",
+        "soundraw": "Click-based prompting, genre-specific generation"
+      },
+      "mixing": {
+        "izotope_neutron": "AI-powered mixing with EQ/compression recommendations",
+        "gullfoss_soundtheory": "Intelligent tonal balance",
+        "sonible_smart_eq": "AI-powered equalization"
+      },
+      "mobile_daws": {
+        "fl_studio_mobile": "Full DAW on mobile with desktop parity",
+        "cubasis": "Premium mobile DAW",
+        "logic_pro_ipad": "Professional desktop DAW on iPad",
+        "garageband": "Free, accessible entry point",
+        "fender_studio": "2025 launch - free, cross-platform (Windows/Mac/Linux/iOS/Android)"
+      }
+    },
+
+    "market_gaps_and_opportunities": {
+      "underserved_needs": [
+        "Affordable all-in-one mobile production suite with AI",
+        "MIDI controllers with built-in quality audio interfaces",
+        "Better UI/UX in AI generation tools (current tools have poor interfaces)",
+        "Fair credit systems that don't waste user credits",
+        "Longer AI generation limits (current 5-minute limits restrictive)",
+        "Comprehensive AI assistant covering entire workflow (not just one feature)",
+        "Better watermarking/attribution for AI-assisted work",
+        "Ethical AI with transparent training data sourcing"
+      ],
+      "emerging_trends": [
+        "Hybrid subscription models (core one-time + optional subscription features)",
+        "AI-human collaboration tools (not full automation)",
+        "Platform-specific mastering automation",
+        "Real-time global collaboration becoming standard",
+        "Mobile-first workflows with desktop refinement",
+        "Standalone hardware with AI capabilities",
+        "Voice cloning and synthesis (controversial but growing)",
+        "Emotional tone detection in AI remixing"
+      ]
+    }
+  },
+
+  "key_takeaways_for_product_development": {
+    "critical_success_factors": [
+      "Focus on AI as creative assistant, not replacement - professionals want enhancement",
+      "Prioritize workflow speed and efficiency - time savings directly impact revenue",
+      "Professional-quality output is non-negotiable - must match human expert results",
+      "Seamless integration with existing tools (DAWs, plugins, hardware)",
+      "Mobile-first thinking with desktop parity - dual workflow standard",
+      "Real-time collaboration features essential for distributed teams",
+      "Transparent, ethical AI with clear attribution and copyright respect",
+      "Flexible pricing - offer both subscription and one-time options",
+      "Superior UI/UX - current AI tools criticized for poor usability"
+    ],
+
+    "must_have_features": {
+      "tier_1_critical": [
+        "High-quality stem separation (LALAL.AI quality benchmark)",
+        "AI-powered mastering for streaming platforms (Spotify/Apple/YouTube presets)",
+        "Mobile app with full DAW features and cloud sync",
+        "Real-time collaboration with low latency",
+        "VST3/AU plugin integration",
+        "Professional audio quality (24-bit/96kHz minimum)"
+      ],
+      "tier_2_important": [
+        "AI mixing assistance with intelligent suggestions",
+        "Sample and loop generation",
+        "MIDI controller deep integration",
+        "Version control and project history",
+        "Cross-platform compatibility (Windows/Mac/iOS/Android)",
+        "Offline mode with background sync"
+      ],
+      "tier_3_nice_to_have": [
+        "Voice synthesis and cloning (with ethical guardrails)",
+        "Generative composition tools",
+        "Advanced MPE controller support",
+        "Modular/CV integration",
+        "AI-powered sample discovery",
+        "Automatic mixing notes and session documentation"
+      ]
+    },
+
+    "pricing_strategy_recommendations": {
+      "recommended_model": "Freemium with hybrid subscription/pay-per-use",
+      "pricing_tiers": {
+        "free": {
+          "features": "Basic DAW, 3 AI generations/month, standard mastering",
+          "goal": "User acquisition and viral growth"
+        },
+        "creator": {
+          "price": "$9.99-14.99/month",
+          "features": "Unlimited AI mastering, stem separation (10 tracks/mo), mobile sync, collaboration (2 users)",
+          "target": "Independent artists, bedroom producers"
+        },
+        "professional": {
+          "price": "$29.99-39.99/month",
+          "features": "Unlimited everything, priority processing, team collaboration, advanced AI tools, distribution integration",
+          "target": "Semi-professional producers, content creators"
+        },
+        "studio": {
+          "price": "$99-199/month",
+          "features": "Multi-seat license, enterprise support, API access, white-label options, custom training",
+          "target": "Professional studios, agencies, labels"
+        },
+        "pay_per_use": {
+          "price": "$0.50-2.00 per AI generation, $5-10 per master",
+          "target": "Sporadic users who don't want subscription"
+        }
+      },
+      "revenue_optimization": [
+        "Offer annual plans at 20% discount",
+        "Educational pricing for students (50% off)",
+        "First month free trial with credit card",
+        "Freemium to paid conversion: target 5-10%",
+        "Pay-per-use as alternative to subscription abandonment"
+      ]
+    },
+
+    "technical_architecture_priorities": {
+      "must_haves": [
+        "Cloud-native architecture (Firestore for state, Cloud Run for APIs)",
+        "Multi-tenant isolation (per-user data segregation)",
+        "Low-latency real-time collaboration (WebRTC or similar)",
+        "Scalable AI processing (GPU clusters for stem separation/mastering)",
+        "Mobile-optimized APIs and offline sync",
+        "Plugin architecture (VST3/AU/AAX SDKs)",
+        "MIDI 2.0 support for future hardware",
+        "Comprehensive analytics and usage tracking"
+      ],
+      "performance_requirements": [
+        "Stem separation: <2 minutes for 3-minute track",
+        "AI mastering: <30 seconds for final bounce",
+        "Real-time collaboration latency: <50ms for MIDI, <200ms for audio",
+        "Mobile app startup: <2 seconds",
+        "Cloud sync: Background, non-blocking",
+        "Plugin CPU usage: <5% idle, <20% peak"
+      ]
+    }
+  },
+
+  "sources_and_references": {
+    "industry_publications": [
+      "https://www.sonarworks.com/blog/research/ai-music-production-2025",
+      "https://www.sonarworks.com/blog/research/ceo-keynote-ai-in-the-music-industry-2025",
+      "https://soundraw.io/blog/post/how-ai-is-changing-the-role-of-music-producers",
+      "https://musictech.com/news/industry/music-producers-are-rejecting-ai-study-reveals-over-80-of-producers-are-against-ai-generated-songs/"
+    ],
+    "producer_interviews": [
+      "https://www.rollingstone.com/music/music-features/rick-rubin-finneas-musicians-on-musicians-1234610056/",
+      "https://www.musicradar.com/news/rick-rubin-finneas-delegation-beatles",
+      "https://www.msnbc.com/the-beat-with-ari/watch/finneas-on-new-album-songwriting-with-billie-eilish-a-i-awards-ari-melber-interview-224577605760",
+      "https://tapeop.com/interviews/165/finneas-oconnell"
+    ],
+    "technical_guides": [
+      "https://beatstorapon.com/blog/spotify-loudness-2025-14-lufs-guide-ai-mastering-tips/",
+      "https://www.izotope.com/en/learn/mastering-for-streaming-platforms",
+      "https://hofa-college.de/en/blog/mastering-for-spotify-apple-music-more-the-loudness-of-the-pros/",
+      "https://veniamastering.studio/blogs/learn/technical-mastering-guide-for-spotify-and-streaming"
+    ],
+    "market_research": [
+      "https://www.fortunebusinessinsights.com/smartphone-music-production-software-market-106428",
+      "https://www.prnewswire.com/news-releases/music-production-software-market-to-grow-by-usd-432-8-million-2025-2029-driven-by-rising-musicians-and-artists-report-highlights-ai-impact-on-market-trends---technavio-302359532.html"
+    ],
+    "tool_comparisons": [
+      "https://musictech.com/guides/buyers-guide/best-stem-separation-tools/",
+      "https://vozart.ai/blog/best-stem-separation-software",
+      "https://pitchinnovations.com/blog/ai-music-production-tools-2025-best-daws-vst-plugins-studio-gear/",
+      "https://pluginbeats.com/the-ultimate-guide-to-choosing-the-right-vst-au-aax-plugin-for-your-daw/"
+    ],
+    "community_discussions": [
+      "https://reelmind.ai/blog/ai-music-generator-reddit-trends-roundup",
+      "https://jackrighteous.com/en-us/blogs/guide-distributing-music-distrokid/reddit-best-practices-ai-music-creators-2025"
+    ]
+  }
+}
